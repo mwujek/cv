@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 // fade in right side
-$('.work-experience').velocity({opacity:1, backgroundColor: "red"},{duration:800, delay:1000});
+$('.work-experience').velocity({opacity:1, backgroundColor: "red"},{duration:500, delay:1000});
 
 // set SVG for download
 var stroke = $('.stroke-left, .stroke-right');
@@ -22,7 +22,7 @@ TweenLite.to(stroke,0,{drawSVG:'100% 100%'});
 
     // open
     if (state === 'open'){
-    expandSection.velocity({ height:expandHeight, paddingTop:20, paddingBottom:20, marginTop: 20, marginBottom: 10, opacity: 1 },{ duration:500,
+    expandSection.velocity({ height:expandHeight, opacity: 1, marginTop:12},{ duration:300,
       // toggle clickable states
       begin: function(){ expandBtn.removeClass('clickable');},
       complete: function(){ expandBtn.addClass('clickable'); }
@@ -33,7 +33,7 @@ TweenLite.to(stroke,0,{drawSVG:'100% 100%'});
     // close  
     } else {
 
-      expandSection.velocity({height:0, opacity: 0, paddingTop:0, paddingBottom:0, marginTop: 0, marginBottom: 0,},{duration:500,
+      expandSection.velocity({height:0, opacity: 0, marginTop:0},{duration:300,
         begin: function(){
           expandBtn.removeClass('clickable');
         },
@@ -92,7 +92,8 @@ TweenLite.to(stroke,0,{drawSVG:'100% 100%'});
     var expandBtn = el.find('.ref-btn');
     expandBtn.addClass('clickable');
     var expandSection = el.find('.ref-expand');
-    var expandHeight  = expandSection.outerHeight();
+    //var expandHeight  = expandSection.outerHeight();
+    var expandHeight  = 220;
 
     // set up SVG
     var svgEl = el.find('svg');
