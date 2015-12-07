@@ -6,7 +6,10 @@ body {
     -o-font-feature-settings: "lnum";
     -webkit-font-feature-settings: "lnum";
     font-feature-settings: "lnum";
-    color: #483D3D
+    color: #483D3D;
+    margin:0px;
+    padding:0px;
+
 }
 
 body,
@@ -176,7 +179,7 @@ article {
 .ref-expand{
    margin: 0px;
    border-radius: 10px;
-   background: #f7f9f8;
+   background: #eee;
    overflow-y: hidden;
    height: 180px;
 
@@ -246,7 +249,8 @@ nav canvas {
 
 nav ul {
     margin-top: 20px;
-    text-align: left
+    text-align: left;
+    transition: height 0.3s;
 }
 
 nav ul li {
@@ -389,4 +393,130 @@ a:hover {
     border-color: #6D5C5C;
     color: #6D5C5C;
     cursor: pointer
+}
+
+
+.cv-title{
+   display: none;
+   font-size: 20px;
+   font-weight: 500;
+   margin: 10px 0px;
+   padding-left: 26px;
+   position:relative;
+}
+
+.mobile-menu{
+   font-size: 22px;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   color: #777;
+   z-index: 100;
+   display: none;
+}
+
+@media (max-width: 1000px) {
+
+   
+   nav{
+      width: 100%;
+      padding: 0;
+      padding-left: 10px;
+      #canvas{display: none;}
+      .cv-title{ display: inline-block;}
+      .mobile-menu{display: inline-block;}
+      .active-menu-btn{
+         color: #F7402D;
+         &:before{
+            content: '\f2d7';
+         }
+      }
+      ul{
+         overflow: hidden;
+         height: 0;
+         margin: 0;
+         li.visible-li{
+            margin: 0;
+            border-bottom: 1px dotted #ccc;
+            opacity: 1;
+         }
+      }
+   }
+   // active menu
+   .active-menu{
+      height: 190px;
+   }
+   .work-experience {
+      padding-top: 0px;
+      padding-left: 10px;
+      article{
+         margin-right: 10px;
+      }
+      article:not(.edu){
+         margin-bottom: 20px;
+         padding-bottom: 20px;
+         border-bottom: 1px solid #ccc;
+         border-bottom-style: dotted;
+         .description li{
+         font-size: 14px;
+      }
+      }
+      article.edu{
+         h3,h4,.description li{
+         font-size: 14px;
+      }
+      }
+   }
+
+   article:not(.edu) .left-side-col{
+      width: 100%;
+      position: relative;
+      margin-bottom: 6px;
+      h3,h4{
+         font-size: 14px;
+      }
+      ul{
+         position: absolute;
+         top: -4px;
+         right: -10px;
+         text-align: right;
+         background: #B1E5FD;
+         padding: 6px 14px;
+         border-radius: 6px 0px 0px 6px;
+      }
+   }
+
+   //ref expand
+   .ref-expand .row{
+      overflow-y:scroll;
+      width: 100%;
+   }
+   .ref-expand .left-side-col{
+      width: 100%;
+      text-align: left;
+
+      img{
+         margin: 6px;
+         height: 40px;
+         width: 40px;
+      }
+      h2,h3{
+         position: absolute;
+      }
+      h2{
+         left:60px;
+         top:0px;
+      }
+      h3{
+         left:60px;
+         top:20px;
+      }
+   }
+   .ref-expand .right-side-col{
+      p{
+         padding: 0 5px;
+         margin: 8px 0px 12px 0px;
+         line-height: 18px;
+      }
+   } 
 }

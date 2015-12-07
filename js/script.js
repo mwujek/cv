@@ -221,6 +221,26 @@ nav.find('ul li').each(function(){
 }); // end each for nav list elements
 
 
+// mobile nav
+
+var menuBtn = $('.mobile-menu');
+var navMenu = $('nav ul');
+menuBtn.click(function() {
+  var btn = $(this);
+  
+  if(btn.hasClass('active-menu-btn')){
+    // already active
+    navMenu.toggleClass('active-menu');
+  } else {
+    // not active
+    navMenu.toggleClass('active-menu');
+
+  }
+
+  btn.toggleClass('active-menu-btn');
+  
+});
+
 }); // end ready
 
 //     $('.accordion h3.buttons').click(function() {
