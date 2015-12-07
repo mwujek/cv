@@ -79,6 +79,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/leif.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4266,
+		"inputAbbreviatedPath": "\/_images\/leif.jpg",
+		"outputAbbreviatedPath": "\/_images\/leif.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/bower_components\/classie\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -8198,17 +8209,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/img\/pattern-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15744,
-		"inputAbbreviatedPath": "\/img\/pattern-2.jpg",
-		"outputAbbreviatedPath": "\/img\/pattern-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
