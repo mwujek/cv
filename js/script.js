@@ -129,40 +129,40 @@ nav.find('ul li').each(function(){
   var iconWidth = icon.outerWidth();
   icon.data({active:false});
   if (el.hasClass('hidden-li')){
-    el.data({active:false, typed: false});
+    el.find('a').data({active:false, typed: false});
   }
-  console.log( el.data() );
+  //console.log( el.data() );
   el.click(function(){
     var listEl = $(this);
     // hidden content
     if ( listEl.hasClass('hidden-content') ){
       var hiddenEL = listEl.next('li');
-      var typeThis = hiddenEL.attr('typed-text');
+      var typeThis = hiddenEL.find('a').attr('typed-text');
 
-      if (hiddenEL.data('typed') === false && hiddenEL.data('active') === false){
+      if (hiddenEL.find('a').data('typed') === false && hiddenEL.find('a').data('active') === false){
       hiddenEL.velocity({opacity:1, height: 18, paddingTop:6, paddingBottom:6},{
           visibility: 'visible', 
           duration: 500,
           complete: function(){
-            hiddenEL.typed({
+            hiddenEL.find('a').typed({
               strings: [typeThis],
               typeSpeed: 30,
               startDelay: 100,
               showCursor: false,
               onStringTyped: function(){
-                hiddenEL.data({typed:true, active:true});
+                hiddenEL.find('a').data({typed:true, active:true});
               }
             });
           }
         });
     // collapse active element
     } else if (hiddenEL.data('typed') === true && hiddenEL.data('active')){
-      console.log('run2');
+      //console.log('run2');
       hiddenEL.data({typed:true, active:false});
       hiddenEL.velocity({opacity:0, height: 0, paddingTop:0, paddingBottom:0},{visibility: 'hidden', duration: 500});
     // expand already typed li
     } else {
-      console.log('run3');
+      //console.log('run3');
       hiddenEL.data({typed:true, active:true});
       hiddenEL.velocity({opacity:1, height: 18, paddingTop:6, paddingBottom:6},{visibility: 'visible', duration: 500});
     }
@@ -238,6 +238,25 @@ menuBtn.click(function() {
   }
 
   btn.toggleClass('active-menu-btn');
+  
+});
+
+
+
+// skills chart
+
+var chart = $('.skills-chart');
+var allBars = $('.bar');
+allBars.addClass('hide-bar');
+chart.click(function(){
+  allBars.each(function(index){
+    var thisBar = $(this);
+    thisBar.velocity({opacity:1,},{duration:100, delay:index*60,
+      complete: function(){
+        thisBar.removeClass('hide-bar');
+      }
+    });
+  });
   
 });
 
