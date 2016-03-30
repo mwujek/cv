@@ -473,3 +473,9 @@ a:hover {
     padding: 0 5px;
     margin: 8px 0px 12px 0px;
     line-height: 18px; } }
+@media print {
+  .ref-btn, nav ul, #canvas, .mobile-menu {
+    display: none !important; }
+
+  .cv-title {
+    padding-left: 0 !important; } }

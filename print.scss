@@ -1,0 +1,6 @@
+@media print {
+
+  // hide
+  .ref-btn, nav ul, #canvas, .mobile-menu{ display: none !important;}
+  .cv-title{ padding-left: 0 !important}
+} // end of media query
