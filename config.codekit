@@ -24,6 +24,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/bals.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32796,
+		"inputAbbreviatedPath": "\/_images\/bals.png",
+		"outputAbbreviatedPath": "\/_images\/bals.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_images\/cheryl.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -46,6 +57,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7578,
+		"inputAbbreviatedPath": "\/_images\/css.png",
+		"outputAbbreviatedPath": "\/_images\/css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/d3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10282,
+		"inputAbbreviatedPath": "\/_images\/d3.png",
+		"outputAbbreviatedPath": "\/_images\/d3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/framer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4086,
+		"inputAbbreviatedPath": "\/_images\/framer.png",
+		"outputAbbreviatedPath": "\/_images\/framer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_images\/glori.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -53,6 +97,17 @@
 		"initialSize": 7725,
 		"inputAbbreviatedPath": "\/_images\/glori.jpg",
 		"outputAbbreviatedPath": "\/_images\/glori.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13494,
+		"inputAbbreviatedPath": "\/_images\/html.png",
+		"outputAbbreviatedPath": "\/_images\/html.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -79,6 +134,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/jquery.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3275,
+		"inputAbbreviatedPath": "\/_images\/jquery.png",
+		"outputAbbreviatedPath": "\/_images\/jquery.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_images\/leif.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -86,6 +152,39 @@
 		"initialSize": 4266,
 		"inputAbbreviatedPath": "\/_images\/leif.jpg",
 		"outputAbbreviatedPath": "\/_images\/leif.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/paper.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214917,
+		"inputAbbreviatedPath": "\/_images\/paper.png",
+		"outputAbbreviatedPath": "\/_images\/paper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/processing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141520,
+		"inputAbbreviatedPath": "\/_images\/processing.png",
+		"outputAbbreviatedPath": "\/_images\/processing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36823,
+		"inputAbbreviatedPath": "\/_images\/sketch.png",
+		"outputAbbreviatedPath": "\/_images\/sketch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

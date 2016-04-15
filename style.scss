@@ -565,4 +565,117 @@ a:hover {
    } 
 }
 
+
+// skills + tools
+.skills-tools{
+  // .col:nth-child(odd){
+  //   width: 70px;
+  // }
+  h2{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  ul{
+    li{
+      height: 30px;
+      line-height: 30px;
+      a{
+        text-decoration: none;
+      }
+      .tool-thumb{
+          background: red;
+          width: 20px;
+          height: 20px;
+          
+          text-align: center;
+          display: inline-block;
+          position: relative;
+          top: 4px;
+          
+          &:first-child{
+            margin-left: 6px;
+          }
+          &.cs{
+            font-size: 12px;
+            color: #fff;
+            font-weight: 600;
+            -webkit-font-smoothing: antialiased;
+            line-height: 21px;
+            border: 2px solid #333;
+            top: -2px;
+            &:nth-child(2) {  margin-left: 6px; background: #302F49; border-color: #2CCBF8; color: #2CCBF8;}
+            &:nth-child(3){ background: #2A1C12; border-color: #FF771A; color: #FF771A;}
+            &:nth-child(4){ background: #43242F; border-color: #FF3A92; color: #FF3A92;}
+            &:nth-child(5){ background: #1F003F; border-color: #CD8EFF; color: #CD8EFF;}
+            &:nth-child(6){ background: #1E0027; border-color: #DF7FFF; color: #DF7FFF;}
+          }
+      }
+    }
+  }
+}
+
+.tool-thumb.sketch{
+  background: url(../_images/sketch.png) !important;
+  background-size: cover !important;
+}
+
+.tool-thumb.framer{
+  background: url(../_images/framer.png) !important;
+  background-size: cover !important;
+}
+
+.tool-thumb.bas{
+  background: url(../_images/bals.png) !important;
+  background-size: cover !important;
+}
+
+.tool-thumb.processing{
+  background: url(../_images/processing.png) !important;
+  background-size: cover !important;
+  margin-left: 6px;
+}
+
+.tool-thumb.d3{
+  background: url(../_images/d3.png) !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  top: 6px !important;
+  margin-left: 6px;
+}
+
+.tool-thumb.paper{
+  font-size: 12px;
+  font-family: monospace;
+  text-align: center;
+  line-height: 21px;
+  color: #fff;
+  background: #FF4136 !important;
+  top: 0px !important;
+  border-radius: 2px;
+  margin-left: 6px;
+  
+}
+
+.tool-thumb.html{
+  background: url(../_images/html.png) !important;
+  background-size: cover !important;
+  margin-left: 6px;
+  top: 5px !important;
+}
+
+.tool-thumb.css{
+  background: url(../_images/css.png) !important;
+  background-size: cover !important;
+  top: 5px !important;
+}
+
+.tool-thumb.jquery{
+  background: url(../_images/jquery.png) !important;
+  background-size: cover !important;
+  top: 5px !important;
+}
+
+
 @import 'print';
