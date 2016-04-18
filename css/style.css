@@ -392,87 +392,6 @@ a:hover {
   .skills-chart .hide-bar {
     width: 0% !important; }
 
-@media (max-width: 1000px) {
-  nav {
-    width: 100%;
-    padding: 0;
-    padding-left: 10px; }
-    nav #canvas {
-      display: none; }
-    nav .cv-title {
-      display: inline-block; }
-    nav .mobile-menu {
-      display: inline-block; }
-    nav .active-menu-btn {
-      color: #F7402D; }
-      nav .active-menu-btn:before {
-        content: '\f2d7'; }
-    nav ul {
-      overflow: hidden;
-      height: 0;
-      margin: 0; }
-      nav ul li.visible-li {
-        margin: 0;
-        border-bottom: 1px dotted #ccc;
-        opacity: 1; }
-
-  .active-menu {
-    height: 190px; }
-
-  .work-experience {
-    padding-top: 0px;
-    padding-left: 10px; }
-    .work-experience article {
-      margin-right: 10px; }
-    .work-experience article:not(.edu) {
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #ccc;
-      border-bottom-style: dotted; }
-      .work-experience article:not(.edu) .description li {
-        font-size: 14px; }
-    .work-experience article.edu h3, .work-experience article.edu h4, .work-experience article.edu .description li {
-      font-size: 14px; }
-
-  article:not(.edu) .left-side-col {
-    width: 100%;
-    position: relative;
-    margin-bottom: 6px; }
-    article:not(.edu) .left-side-col h3, article:not(.edu) .left-side-col h4 {
-      font-size: 14px; }
-    article:not(.edu) .left-side-col ul {
-      position: absolute;
-      top: -4px;
-      right: -10px;
-      text-align: right;
-      background: #E0F5FF;
-      padding: 6px 14px;
-      border-radius: 6px 0px 0px 6px; }
-
-  .ref-expand .row {
-    overflow-y: scroll;
-    width: 100%; }
-
-  .ref-expand .left-side-col {
-    width: 100%;
-    text-align: left; }
-    .ref-expand .left-side-col img {
-      margin: 6px;
-      height: 40px;
-      width: 40px; }
-    .ref-expand .left-side-col h2, .ref-expand .left-side-col h3 {
-      position: absolute; }
-    .ref-expand .left-side-col h2 {
-      left: 60px;
-      top: 0px; }
-    .ref-expand .left-side-col h3 {
-      left: 60px;
-      top: 20px; }
-
-  .ref-expand .right-side-col p {
-    padding: 0 5px;
-    margin: 8px 0px 12px 0px;
-    line-height: 18px; } }
 .skills-tools h2 {
   font-size: 17px;
   font-weight: 600;
@@ -574,6 +493,92 @@ a:hover {
   background-size: cover !important;
   top: 5px !important; }
 
+@media (max-width: 1000px) {
+  nav {
+    width: 100%;
+    padding: 0;
+    padding-left: 10px; }
+    nav #canvas {
+      display: none; }
+    nav .cv-title {
+      display: inline-block; }
+    nav .mobile-menu {
+      display: inline-block; }
+    nav .active-menu-btn {
+      color: #F7402D; }
+      nav .active-menu-btn:before {
+        content: '\f2d7'; }
+    nav ul {
+      overflow: hidden;
+      height: 0;
+      margin: 0; }
+      nav ul li.visible-li {
+        margin: 0;
+        border-bottom: 1px dotted #ccc;
+        opacity: 1; }
+
+  .active-menu {
+    height: 190px; }
+
+  .work-experience {
+    padding-top: 0px;
+    padding-left: 10px; }
+    .work-experience article {
+      margin-right: 10px; }
+    .work-experience article:not(.edu) {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      border-bottom-style: dotted; }
+      .work-experience article:not(.edu) .description li {
+        font-size: 14px; }
+    .work-experience article.edu h3, .work-experience article.edu h4, .work-experience article.edu .description li {
+      font-size: 14px; }
+
+  article:not(.edu) .left-side-col {
+    width: 100%;
+    position: relative;
+    margin-bottom: 6px; }
+    article:not(.edu) .left-side-col h3, article:not(.edu) .left-side-col h4 {
+      font-size: 14px; }
+    article:not(.edu) .left-side-col ul {
+      position: absolute;
+      top: -4px;
+      right: -10px;
+      text-align: right;
+      background: #E0F5FF;
+      padding: 6px 14px;
+      border-radius: 6px 0px 0px 6px; }
+
+  .ref-expand .row {
+    overflow-y: scroll;
+    width: 100%; }
+
+  .ref-expand .left-side-col {
+    width: 100%;
+    text-align: left; }
+    .ref-expand .left-side-col img {
+      margin: 6px;
+      height: 40px;
+      width: 40px; }
+    .ref-expand .left-side-col h2, .ref-expand .left-side-col h3 {
+      position: absolute; }
+    .ref-expand .left-side-col h2 {
+      left: 60px;
+      top: 0px; }
+    .ref-expand .left-side-col h3 {
+      left: 60px;
+      top: 20px; }
+
+  .ref-expand .right-side-col p {
+    padding: 0 5px;
+    margin: 8px 0px 12px 0px;
+    line-height: 18px; }
+
+  .tools {
+    margin-top: 10px !important;
+    padding-top: 10px;
+    border-top: 1px dotted #ccc; } }
 @media print {
   .ref-btn, nav ul, #canvas, .mobile-menu {
     display: none !important; }

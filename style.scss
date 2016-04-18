@@ -459,113 +459,6 @@ a:hover {
    .hide-bar{width: 0% !important}
 }
 
-@media (max-width: 1000px) {
-
-   
-   nav{
-      width: 100%;
-      padding: 0;
-      padding-left: 10px;
-      #canvas{display: none;}
-      .cv-title{ display: inline-block;}
-      .mobile-menu{display: inline-block;}
-      .active-menu-btn{
-         color: #F7402D;
-         &:before{
-            content: '\f2d7';
-         }
-      }
-      ul{
-         overflow: hidden;
-         height: 0;
-         margin: 0;
-         li.visible-li{
-            margin: 0;
-            border-bottom: 1px dotted #ccc;
-            opacity: 1;
-         }
-      }
-   }
-   // active menu
-   .active-menu{
-      height: 190px;
-   }
-   .work-experience {
-      padding-top: 0px;
-      padding-left: 10px;
-      article{
-         margin-right: 10px;
-      }
-      article:not(.edu){
-         margin-bottom: 20px;
-         padding-bottom: 20px;
-         border-bottom: 1px solid #ccc;
-         border-bottom-style: dotted;
-         .description li{
-         font-size: 14px;
-      }
-      }
-      article.edu{
-         h3,h4,.description li{
-         font-size: 14px;
-      }
-      }
-   }
-
-   article:not(.edu) .left-side-col{
-      width: 100%;
-      position: relative;
-      margin-bottom: 6px;
-      h3,h4{
-         font-size: 14px;
-      }
-      ul{
-         position: absolute;
-         top: -4px;
-         right: -10px;
-         text-align: right;
-         background: #E0F5FF;
-         padding: 6px 14px;
-         border-radius: 6px 0px 0px 6px;
-      }
-   }
-
-   //ref expand
-   .ref-expand .row{
-      overflow-y:scroll;
-      width: 100%;
-   }
-   .ref-expand .left-side-col{
-      width: 100%;
-      text-align: left;
-
-      img{
-         margin: 6px;
-         height: 40px;
-         width: 40px;
-      }
-      h2,h3{
-         position: absolute;
-      }
-      h2{
-         left:60px;
-         top:0px;
-      }
-      h3{
-         left:60px;
-         top:20px;
-      }
-   }
-   .ref-expand .right-side-col{
-      p{
-         padding: 0 5px;
-         margin: 8px 0px 12px 0px;
-         line-height: 18px;
-      }
-   } 
-}
-
-
 // skills + tools
 .skills-tools{
   // .col:nth-child(odd){
@@ -676,6 +569,123 @@ a:hover {
   background-size: cover !important;
   top: 5px !important;
 }
+
+@media (max-width: 1000px) {
+
+   
+   nav{
+      width: 100%;
+      padding: 0;
+      padding-left: 10px;
+      #canvas{display: none;}
+      .cv-title{ display: inline-block;}
+      .mobile-menu{display: inline-block;}
+      .active-menu-btn{
+         color: #F7402D;
+         &:before{
+            content: '\f2d7';
+         }
+      }
+      ul{
+         overflow: hidden;
+         height: 0;
+         margin: 0;
+         li.visible-li{
+            margin: 0;
+            border-bottom: 1px dotted #ccc;
+            opacity: 1;
+         }
+      }
+   }
+   // active menu
+   .active-menu{
+      height: 190px;
+   }
+   .work-experience {
+      padding-top: 0px;
+      padding-left: 10px;
+      article{
+         margin-right: 10px;
+      }
+      article:not(.edu){
+         margin-bottom: 20px;
+         padding-bottom: 20px;
+         border-bottom: 1px solid #ccc;
+         border-bottom-style: dotted;
+         .description li{
+         font-size: 14px;
+      }
+      }
+      article.edu{
+         h3,h4,.description li{
+         font-size: 14px;
+      }
+      }
+   }
+
+   article:not(.edu) .left-side-col{
+      width: 100%;
+      position: relative;
+      margin-bottom: 6px;
+      h3,h4{
+         font-size: 14px;
+      }
+      ul{
+         position: absolute;
+         top: -4px;
+         right: -10px;
+         text-align: right;
+         background: #E0F5FF;
+         padding: 6px 14px;
+         border-radius: 6px 0px 0px 6px;
+      }
+   }
+
+   //ref expand
+   .ref-expand .row{
+      overflow-y:scroll;
+      width: 100%;
+   }
+   .ref-expand .left-side-col{
+      width: 100%;
+      text-align: left;
+
+      img{
+         margin: 6px;
+         height: 40px;
+         width: 40px;
+      }
+      h2,h3{
+         position: absolute;
+      }
+      h2{
+         left:60px;
+         top:0px;
+      }
+      h3{
+         left:60px;
+         top:20px;
+      }
+   }
+   .ref-expand .right-side-col{
+      p{
+         padding: 0 5px;
+         margin: 8px 0px 12px 0px;
+         line-height: 18px;
+      }
+   } 
+
+
+   
+   
+   .tools{
+      margin-top: 10px !important;
+      padding-top: 10px;
+      border-top: 1px dotted #ccc;
+   }
+} // end of media query
+
+
 
 
 @import 'print';
